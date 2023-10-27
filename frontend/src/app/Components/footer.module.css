@@ -1,0 +1,41 @@
+.footerSec {
+    background-color: #101728;
+    height: 100vh;
+    max-height: 1080px;
+    width: 100vw;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.headersStyling {
+    font-family: CodecPro;
+    color: #fff;
+}
+
+.wizText {
+    color: #9340FF;
+}
+
+.h4Connect {
+    font-size: 2.5rem;
+}
+
+.pConnect {
+    font-size: 1.5rem;
+}
+
+.connectPhoto {
+    transform: translateY(-49%);
+}
+
+@media (max-width: 768px) {
+    .h4Connect {
+        font-size: 1.75rem;
+    }
+    .pConnect {
+        font-size: 0.9rem;
+    }
+}
+
