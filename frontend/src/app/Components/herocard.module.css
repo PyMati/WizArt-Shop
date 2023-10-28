@@ -1,4 +1,4 @@
-.footerSec {
+.cardSec {
   background-color: #101728;
   height: 100vh;
   max-height: 1080px;
@@ -18,24 +18,32 @@
   color: #9340ff;
 }
 
-.h4Connect {
-  font-size: 2.5rem;
+.imgCard {
+  transform: translateY(-50%);
 }
 
-.pConnect {
-  font-size: 1.5rem;
+.h3Card {
+  font-size: 4rem;
+  padding-bottom: 7.5%;
+  font-family: CodecPro;
+}
+
+.pCard {
+  font-size: 1.25rem;
   color: #fff;
+  font-family: CodecPro;
 }
 
-.connectPhoto {
-  transform: translateY(-49%);
+.cardImage {
+  border-radius: 15px;
 }
 
 @media (max-width: 768px) {
-  .h4Connect {
-    font-size: 1.75rem;
+  .h3Card {
+    font-size: 2rem;
+    padding-bottom: 0;
   }
-  .pConnect {
+  .pCard {
     font-size: 0.9rem;
   }
 }

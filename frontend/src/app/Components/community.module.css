@@ -1,36 +1,36 @@
 .communitySec {
-    background-color: #101728;
-    height: 100vh;
-    max-height: 1080px;
-    width: 100vw;
-    max-width: 1920px;
-    margin: 0 auto;
-    position: relative;
-    overflow-x: hidden;
+  background-color: #101728;
+  height: 100vh;
+  max-height: 1080px;
+  width: 100vw;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .headersStyling {
-    font-family: CodecPro;
-    color: #fff;
+  font-family: CodecPro;
+  color: #fff;
 }
 
 .wizText {
-    color: #9340FF;
+  color: #9340ff;
 }
 
 .h2Community {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .pCommunity {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 768px) {
-    .h2Community {
-        font-size: 2rem;
-    }
-    .pCommunity {
-        font-size: 0.9rem;
-    }
+  .h2Community {
+    font-size: 2rem;
+  }
+  .pCommunity {
+    font-size: 0.9rem;
+  }
 }

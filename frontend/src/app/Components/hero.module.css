@@ -1,0 +1,59 @@
+.heroSec {
+  background-color: #101728;
+  height: 100vh;
+  max-height: 1080px;
+  width: 100vw;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.logo {
+  top: -25px;
+  left: 7.5%;
+}
+
+.h1Hero {
+  font-family: CodecPro;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.h3Hero {
+  font-family: CodecPro;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.heroPhoto {
+  border-radius: 12px;
+}
+
+.hMargin {
+    margin-top: 125px;
+}
+
+.heroBtn {
+  font-family: CodecPro;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9340ff, #ff3c5f);
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.4rem 2rem;
+  color: #0F1819;
+}
+
+@media (max-width: 768px) {
+  .h1Connect {
+    font-size: 2.5rem;
+  }
+  .h3Connect {
+    font-size: 1.25rem;
+  }
+
+  .hMargin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
