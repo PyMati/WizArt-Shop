@@ -1,6 +1,4 @@
-GET:Check server status:00:00:00
-GET:Get all products:00:00:00
-GET:Get all comments for product with id 1:00:00:00
-POST:Product created:00:00:00
-POST:New comment for product with id Product object (1) was created:00:00:00
-POST:Invalid data to delete product was provided:00:00:00
+GET:Check server status:11:21:26
+GET:Get all products:11:21:29
+GET:Get all comments for product with id 1:11:21:31
+POST:Product created:11:21:33
