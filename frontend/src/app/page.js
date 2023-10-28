@@ -1,6 +1,4 @@
 import styles from "./page.module.css";
-import Image from "next/image";
-import entrySeller from "./image.png";
 import stuff1 from "./img/items1.png";
 import stuff2 from "./img/items2.png";
 import stuff3 from "./img/items3.png";
