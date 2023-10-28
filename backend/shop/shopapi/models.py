@@ -10,7 +10,7 @@ class Product(models.Model):
 
 
 class ProductComment(models.Model):
-    product_id = models.IntegerField()
+    product_id = models.ForeignKey(Product, to_field='id', on_delete=models.CASCADE)
     author = models.CharField(max_length=64)
     comment = models.CharField(max_length=512)
     rating = models.IntegerField()
