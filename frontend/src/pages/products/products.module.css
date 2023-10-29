@@ -4,3 +4,20 @@
   max-width: 1920px;
   background-color: #101728;
 }
+
+.productButt {
+  text-decoration: none;
+  font-family: CodecPro;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9340ff, #ff3c5f);
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.4rem 2rem;
+  color: #0f1819;
+  margin: 0.5rem 0.5rem;
+  font-weight: bold;
+}
+
+.productButt:hover {
+  cursor: pointer;
+}

@@ -1,12 +1,18 @@
 import "bootstrap/dist/css/bootstrap.css";
 import styles from "./productcard.module.css";
 import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 
 export default function ProductCard({ product_data }) {
   const router = useRouter();
   return (
     <>
-      <div
+      <motion.div
+        whileHover={{
+          scale: 1.05,
+          boxShadow: "rgba(194, 136, 136, 0.35) 0px 5px 15px",
+          transition: { duration: 0.3 },
+        }}
         className={"col-6 col-sm-5 col-md-4 col-lg-3 m-3 " + styles.productDiv}
       >
         <div>
@@ -18,9 +24,11 @@ export default function ProductCard({ product_data }) {
           <div className={"card-body p-2 text-center" + " " + styles.cdText}>
             <h6 className="card-title p-2">{product_data.product_name}</h6>
             <p className="card-title p-2">{product_data.product_price}$</p>
-            <a
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               href="#"
-              class={styles.productButt}
+              className={styles.productButt}
               onClick={() => {
                 router.push({
                   pathname: `/products/${product_data.id}`,
@@ -35,10 +43,10 @@ export default function ProductCard({ product_data }) {
               }}
             >
               Read More
-            </a>
+            </motion.a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }
