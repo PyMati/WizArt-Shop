@@ -31,7 +31,7 @@
 }
 
 .hMargin {
-    margin-top: 125px;
+  margin-top: 125px;
 }
 
 .heroBtn {
@@ -41,7 +41,7 @@
   border-radius: 15px;
   text-align: center;
   padding: 0.4rem 2rem;
-  color: #0F1819;
+  color: #0f1819;
 }
 
 @media (max-width: 768px) {

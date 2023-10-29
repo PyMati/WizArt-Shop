@@ -2,3 +2,22 @@ GET:Check server status:11:21:26
 GET:Get all products:11:21:29
 GET:Get all comments for product with id 1:11:21:31
 POST:Product created:11:21:33
+GET:Check server status:20:19:14
+GET:Get all products:20:19:17
+DELETE:Product with id 1 was deleted:20:19:27
+DELETE:Product with id 2 was deleted:20:19:29
+DELETE:Product with id 3 was deleted:20:19:31
+DELETE:Product with id 4 was deleted:20:19:34
+DELETE:Product with id 5 was deleted:20:19:36
+POST:Product created:20:21:34
+POST:Product created:20:22:46
+POST:Product created:20:23:44
+GET:Get all products:20:23:50
+POST:Product created:20:25:30
+POST:Product created:20:26:04
+POST:Product created:20:26:42
+GET:Get all products:20:26:45
+POST:Product created:20:29:05
+POST:Product created:20:29:41
+POST:Product created:20:30:15
+GET:Get all products:20:30:19

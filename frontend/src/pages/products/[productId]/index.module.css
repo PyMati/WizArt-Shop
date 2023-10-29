@@ -1,0 +1,19 @@
+.productFinSec {
+  background-color: #101728;
+  height: 100vh;
+  max-height: 1080px;
+  width: 100vw;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.productDesc {
+  font-family: CodecPro;
+  color: #fff;
+}
+
+.prodFinImg {
+  border-radius: 25px;
+}
