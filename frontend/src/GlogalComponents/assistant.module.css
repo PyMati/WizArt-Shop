@@ -1,0 +1,35 @@
+.assistantDiv {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 1;
+}
+
+.assistant {
+  width: 30px;
+  height: 30px;
+}
+
+.chatDiv {
+  height: 300px;
+  width: 250px;
+  background-color: rgb(27, 27, 27);
+  border-radius: 13px;
+}
+
+.text {
+  font-family: CodecPro;
+  color: white;
+}
+
+.msgDiv {
+  height: 240px;
+  width: 250px;
+  background-color: rgb(71, 71, 71);
+  overflow-y: auto;
+}
+
+.Exit {
+  position: absolute;
+  right: 10px;
+}

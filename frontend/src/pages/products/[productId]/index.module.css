@@ -16,3 +16,27 @@
 .prodFinImg {
   border-radius: 25px;
 }
+
+.prodBtn {
+  font-family: CodecPro;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9340ff, #ff3c5f);
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.4rem 2rem;
+  color: #0f1819;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bckBtn {
+  left: 0;
+  top: 10px;
+  position: absolute;
+}
+
+@media (max-width: 500px) {
+  .bckBtn {
+    position: static;
+  }
+}

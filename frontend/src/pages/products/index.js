@@ -2,6 +2,7 @@ import ProductCard from "./Components/ProductCard";
 import styles from "./products.module.css";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import WizAssisant from "@/GlogalComponents/WizAssistant";
 
 export async function getServerSideProps() {
   const data = await fetch("http://127.0.0.1:3005/api/v1/products").then(
@@ -26,6 +27,7 @@ export default function Products({ data }) {
             <div
               className={"col-12 m-3 text-center p-2 " + styles.navProductBar}
             >
+              <WizAssisant/>
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
