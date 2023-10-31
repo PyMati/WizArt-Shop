@@ -33,6 +33,7 @@ export default function ProductCard({ product_data }) {
                 router.push({
                   pathname: `/products/${product_data.id}`,
                   query: {
+                    id: product_data.id,
                     name: product_data.product_name,
                     category: product_data.product_category,
                     description: product_data.product_description,

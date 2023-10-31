@@ -29,10 +29,21 @@
   font-weight: bold;
 }
 
+.inpLen {
+  width: 5%;
+}
+
 .bckBtn {
   left: 0;
   top: 10px;
   position: absolute;
+}
+
+.commentDiv {
+  background-color: #796594;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 500px) {

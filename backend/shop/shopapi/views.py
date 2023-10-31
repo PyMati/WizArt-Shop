@@ -60,9 +60,9 @@ class ProductOperations(APIView):
 class CommentOperations(APIView):
     def get(self, request):
         comments = ProductComment.objects.filter(
-            product_id=request.data["id"]).values()
+            product_id=request.GET.getlist('id')[0]).values()
         saveActionToLogFile(
-            "GET", f"Get all comments for product with id {request.data['id']}")
+            "GET", f"Get all comments for product with id {request.GET.getlist('id')[0]}")
         return Response({"data": comments})
 
     def post(self, request):
