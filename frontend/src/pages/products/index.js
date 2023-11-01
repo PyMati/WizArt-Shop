@@ -42,6 +42,9 @@ export default function Products({ data }) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className={styles.productButt}
+                onClick={() => {
+                  router.push("/products/addproduct")
+                }}
               >
                 Add Product
               </motion.a>
