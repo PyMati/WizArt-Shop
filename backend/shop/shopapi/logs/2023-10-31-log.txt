@@ -78,3 +78,23 @@ GET:Get all comments for product with id 6:17:23:37
 GET:Get all comments for product with id 6:17:23:47
 GET:Get all products:17:23:49
 GET:Get all comments for product with id 6:17:23:50
+GET:Get all products:18:54:22
+GET:Get all products:18:54:23
+GET:Get all products:18:54:29
+GET:Get all products:18:54:29
+GET:Get all comments for product with id 6:18:54:36
+POST:New comment for product with id Product object (6) was created:18:59:59
+GET:Get all comments for product with id 6:19:00:00
+GET:Get all products:19:00:02
+GET:Get all comments for product with id 6:19:00:03
+GET:Get all comments for product with id 6:19:00:04
+GET:Get all products:19:00:06
+GET:Get all comments for product with id 8:19:00:08
+GET:Get all products:19:00:09
+GET:Get all comments for product with id 6:19:00:10
+GET:Get all comments for product with id 6:19:00:54
+GET:Get all products:19:01:11
+GET:Get all comments for product with id 6:19:01:12
+GET:Get all comments for product with id 6:19:01:13
+GET:Get all products:19:01:14
+GET:Get all products:19:01:15

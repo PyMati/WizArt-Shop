@@ -4,6 +4,7 @@ import styles from "./index.module.css";
 import { motion } from "framer-motion";
 import axios from "axios";
 import { useRef, useState } from "react";
+import "bootstrap/dist/css/bootstrap.css";
 
 export async function getServerSideProps(context) {
   const data = axios.get("http://127.0.0.1:3005/api/v1/comments/", {
@@ -137,13 +138,13 @@ export default function Product({ comments }) {
                 {comments.data.map((item, index) => (
                   <div
                     className={
-                      "col-6 col-sm-6 col-md-3 col-lg-2 text-center " +
+                      "col-6 m-2 col-sm-6 col-md-3 col-lg-2 text-center " +
                       styles.commentDiv
                     }
                   >
-                    <p>{item.author}</p>
-                    <p>{item.comment}</p>
-                    <p>{item.rating}</p>
+                    <p>Author: {item.author}</p>
+                    <p>Comment: {item.comment}</p>
+                    <p>Rating: {item.rating}/5</p>
                   </div>
                 ))}
               </div>

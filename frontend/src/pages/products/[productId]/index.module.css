@@ -40,10 +40,11 @@
 }
 
 .commentDiv {
-  background-color: #796594;
+  background-color: #01040a;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 @media (max-width: 500px) {
